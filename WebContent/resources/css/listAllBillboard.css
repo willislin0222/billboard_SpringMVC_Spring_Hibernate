@@ -1,0 +1,38 @@
+.col1{
+	font-size:20px;
+	width:500px;
+	text-align:left;
+}
+.col2{
+	font-size:20px;
+	width:200px;
+	text-align:center;
+}
+.col3{
+	font-size:20px;
+	width:200px;
+	text-align:center;
+}
+.col4{
+	font-size:20px;
+	width:100px;
+	text-align:center;
+}
+.col5{
+	font-size:20px;
+	width:100px;
+	text-align:center;
+}
+.button{
+	font-size:16px;
+	text-align: center;
+	width:100%;
+}
+.submitbtn{
+	background-color: #f00;
+}
+.backlist{
+	margin-left:90px;
+	text-align:center;
+	width:51%;
+}

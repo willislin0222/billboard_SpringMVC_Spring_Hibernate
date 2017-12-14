@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.billboard.model.BillboardVO" table="billboard" >
+        
+     <id name="bill_id" column="bill_id">
+	    <generator class="identity" />
+	</id>
+        
+        <property name="bill_title" column="bill_title" />
+        <property name="bill_name" column="bill_name" />
+        <property name="bill_start" column="bill_start" />
+        <property name="bill_end" column="bill_end" />
+        <property name="bill_content" column="bill_content" />
+
+        
+    </class>
+</hibernate-mapping>
